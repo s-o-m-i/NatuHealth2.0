@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: white;
+}
+
+.my-bg-color {
+  background-color: #ffffff;
+}
+
+.card-bg-color {
+  background-color: #160a3b;
+}
+.btn-bg-gradient {
+  background-color: #5a63fe;
+}
+.transition {
+  transition: all 1s ease;
+}
+
+.natu-text-blue-color {
+  color : #5A63FE;
+}
+
+.searchbar {
+  box-shadow: 0px 6px 25.600000381469727px 0px #0000001A;
+}
+
+.home-big-text-color {
+  color: #475371;
+}
